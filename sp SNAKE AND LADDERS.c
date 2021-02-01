@@ -46,14 +46,7 @@ void player1()
 	int sum=0,get;
 	do{
 	int d=1+(rand()%6);  //take random values
-
-	
-	
-	
-	
-	
-	//////snakes//////
-
+//////snakes//////
 if(sum<51){
 	
 	if(sum==49){
@@ -126,12 +119,6 @@ else{
 	printf("\n");
 }
 }
-
-	
-	
-	
-	
-	
 	printf("\n\nthrow dice::%d\n",d);
 	get=d;
 	sum=sum+get;
@@ -147,10 +134,7 @@ void player2()//////player 2/////////
 	do{
 	int d=1+(rand()%6);
 	
-		
-		
-		
-		//////snakes//////
+//////snakes//////
 
 if(sum<51){
 	
@@ -223,21 +207,11 @@ else if(sum==37){
 else{
 	printf("\n");
 }
-}
-
-		
-		
-		printf("\nthrow dice::%d\n",d);
-		get=d;	
-		sum=sum+get;
-		c2++;
-		printf("your position=%d\n",sum);
+}		
+printf("\nthrow dice::%d\n",d);
+get=d;	
+sum=sum+get;
+c2++;
+printf("your position=%d\n",sum);
 }while(sum<51);
 }
-
-
-
-
-
-
- 
