@@ -66,6 +66,8 @@ else if(sum==18){
 
 	sum=10;
 	printf("your position=%d\n",sum);
+
+	//hello
 }
 else if(sum==34){
 printf("\nthere is snake from 34 to 16 bad luck\n");
